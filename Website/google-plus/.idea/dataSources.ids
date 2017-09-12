@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - exams@localhost" uuid="425f1375-1ddf-4757-822e-d1f6aebb286b">
+    <database-info product="MySQL" version="5.6.11" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.2">
+      <schema id="1" name="exams"/>
+      <table id="2" parent="1" name="ac_scheme_detail"/>
+      <table id="3" parent="1" name="batch"/>
+      <table id="4" parent="1" name="comments"/>
+      <table id="5" parent="1" name="conc_area"/>
+      <table id="6" parent="1" name="department"/>
+      <table id="7" parent="1" name="exam_form_paper"/>
+      <table id="8" parent="1" name="exam_form_student_enlorment"/>
+      <table id="9" parent="1" name="faculty"/>
+      <table id="10" parent="1" name="faculty_members"/>
+      <table id="11" parent="1" name="google_users"/>
+      <table id="12" parent="1" name="hec_pass_fail_gazet"/>
+      <table id="13" parent="1" name="item_requisition"/>
+      <table id="14" parent="1" name="ledger"/>
+      <table id="15" parent="1" name="ledger_detail_summary"/>
+      <table id="16" parent="1" name="ledger_details"/>
+      <table id="17" parent="1" name="ledger_details_teacher"/>
+      <table id="18" parent="1" name="ledger_list_detail"/>
+      <table id="19" parent="1" name="ledger_semester"/>
+      <table id="20" parent="1" name="log_numbers"/>
+      <table id="21" parent="1" name="marksheet_announcement"/>
+      <table id="22" parent="1" name="notification"/>
+      <table id="23" parent="1" name="part"/>
+      <table id="24" parent="1" name="prefix_type"/>
+      <table id="25" parent="1" name="program"/>
+      <table id="26" parent="1" name="scheme"/>
+      <table id="27" parent="1" name="scheme_detail"/>
+      <table id="28" parent="1" name="scheme_part"/>
+      <table id="29" parent="1" name="scheme_semester"/>
+      <table id="30" parent="1" name="seat_list"/>
+      <table id="31" parent="1" name="seat_list_detail"/>
+      <table id="32" parent="1" name="student_part"/>
+      <table id="33" parent="1" name="student_registration"/>
+      <table id="34" parent="1" name="users"/>
+      <table id="35" parent="1" name="year"/>
+      <table id="36" parent="1" name="zemail_students"/>
+      <column id="37" parent="2" name="SCHEME_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="38" parent="2" name="SCHEME_PART">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="39" parent="2" name="AC_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="40" parent="2" name="COURSE_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="41" parent="2" name="COURSE_TITLE">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="42" parent="2" name="CR_HRS">
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="43" parent="2" name="MAX_MARKS">
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="44" parent="2" name="REMARKS">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="45" parent="2" name="SEMESTER">
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="46" parent="2" name="IS_CREDITABLE">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <key id="47" parent="2" name="PRIMARY">
+        <columns>SCHEME_ID
+AC_ID
+SCHEME_PART
+COURSE_NO</columns>
+        <primary>1</primary>
+      </key>
+      <column id="48" parent="3" name="BATCH_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="49" parent="3" name="PROG_ID">
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="50" parent="3" name="DEPT_ID">
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="51" parent="3" name="RUL_ID">
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="52" parent="3" name="YEAR">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="53" parent="3" name="SHIFT">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="54" parent="3" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="55" parent="3" name="GROUP_DESC">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <key id="56" parent="3" name="PRIMARY">
+        <columns>BATCH_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="57" parent="4" name="MessageType">
+        <data-type>text</data-type>
+      </column>
+      <column id="58" parent="4" name="Subject">
+        <data-type>text</data-type>
+      </column>
+      <column id="59" parent="4" name="Comments">
+        <data-type>text</data-type>
+      </column>
+      <column id="60" parent="4" name="Username">
+        <data-type>text</data-type>
+      </column>
+      <column id="61" parent="4" name="UserEmail">
+        <data-type>text</data-type>
+      </column>
+      <column id="62" parent="4" name="UserTel">
+        <data-type>text</data-type>
+      </column>
+      <column id="63" parent="4" name="UserFAX">
+        <data-type>text</data-type>
+      </column>
+      <column id="64" parent="4" name="to_day_date">
+        <data-type>date</data-type>
+      </column>
+      <column id="65" parent="4" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="66" parent="4" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="67" parent="5" name="AC_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="68" parent="5" name="SCHEME_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="69" parent="5" name="SCHEME_PART">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="70" parent="5" name="TITLE">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="71" parent="5" name="DESCRIPTION">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="72" parent="5" name="REMARKS">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="73" parent="5" name="PRIMARY">
+        <columns>SCHEME_PART
+SCHEME_ID
+AC_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="74" parent="6" name="DEPT_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="75" parent="6" name="FAC_ID">
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="76" parent="6" name="INST_ID">
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="77" parent="6" name="DEPT_NAME">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="78" parent="6" name="IS_INST">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="79" parent="6" name="CODE">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="80" parent="6" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="81" parent="6" name="PRIMARY">
+        <columns>DEPT_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="82" parent="7" name="idexam_form_paper">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="83" parent="7" name="scheme_detail_SEMESTER">
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="84" parent="7" name="scheme_detail_SCHEME_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="85" parent="7" name="scheme_detail_COURSE_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="86" parent="7" name="exam_form_student_enlorment_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="87" parent="7" name="scheme_detail_PART">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="88" parent="7" name="AC_ID">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="89" parent="7" name="scheme_detail_CR_HRS">
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="90" parent="7" name="scheme_detail_COURSE_TITTLE">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="91" parent="7" name="PRIMARY">
+        <columns>idexam_form_paper</columns>
+        <primary>1</primary>
+      </key>
+      <column id="92" parent="8" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="93" parent="8" name="EXAM_TYPE">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="94" parent="8" name="DATE_OF_SUMBIT_FORM">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="95" parent="8" name="ATTANDANCE">
+        <data-type>float</data-type>
+      </column>
+      <column id="96" parent="8" name="CLEARNACE_SEMENAR">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="97" parent="8" name="CLERANCE_HOSTEL">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="98" parent="8" name="CLEARANCE_LIBRARY">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="99" parent="8" name="REMARKS">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="100" parent="8" name="student_registration_BATCH_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="101" parent="8" name="student_registration_ROLL_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="102" parent="8" name="CHALLAN_NO">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="103" parent="8" name="CHALLAN_DATE">
+        <data-type>date</data-type>
+      </column>
+      <column id="104" parent="8" name="CHALLAN_RS">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="105" parent="8" name="SEMESTER">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="106" parent="8" name="STATUS">
+        <data-type>varchar(1)</data-type>
+        <default-expression>&apos;T&apos;</default-expression>
+      </column>
+      <column id="107" parent="8" name="EXAM_YEAR">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="108" parent="8" name="SCHEME_ID">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="109" parent="8" name="NAME">
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="110" parent="8" name="FNAME">
+        <data-type>varchar(60)</data-type>
+      </column>
+      <key id="111" parent="8" name="PRIMARY">
+        <columns>ID
+student_registration_BATCH_ID
+student_registration_ROLL_NO</columns>
+        <primary>1</primary>
+      </key>
+      <column id="112" parent="9" name="FAC_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="113" parent="9" name="FAC_NAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="114" parent="9" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="115" parent="9" name="PRIMARY">
+        <columns>FAC_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="116" parent="10" name="MEMBER_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="117" parent="10" name="DEPT_ID">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="118" parent="10" name="FIRST_NAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="119" parent="10" name="LAST_NAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="120" parent="10" name="EMAIL_ADRESS">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="121" parent="10" name="DEPARTMENT_NAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="122" parent="10" name="PREFIX_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="123" parent="10" name="MOBILE">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="124" parent="10" name="POSTEL_ADDRESS">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="125" parent="10" name="PERMENT_ADDRESS">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="126" parent="10" name="DATE_OF_BIRTH">
+        <data-type>date</data-type>
+      </column>
+      <column id="127" parent="10" name="CNIC">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="128" parent="10" name="HBL_ACCOUNT_NO">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <key id="129" parent="10" name="PRIMARY">
+        <columns>MEMBER_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="130" parent="11" name="google_id">
+        <mandatory>1</mandatory>
+        <data-type>decimal(21)</data-type>
+      </column>
+      <column id="131" parent="11" name="google_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="132" parent="11" name="google_email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="133" parent="11" name="google_link">
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="134" parent="11" name="google_picture_link">
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <key id="135" parent="11" name="PRIMARY">
+        <columns>google_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="136" parent="12" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="137" parent="12" name="roll_no">
+        <mandatory>1</mandatory>
+        <data-type>varchar(110)</data-type>
+      </column>
+      <column id="138" parent="12" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="139" parent="12" name="fname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="140" parent="12" name="surname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="141" parent="12" name="program_part">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="142" parent="12" name="exam_year">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="143" parent="12" name="cgpa">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <column id="144" parent="12" name="percentage">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <column id="145" parent="12" name="announcement_date">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="146" parent="12" name="total_semesters">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="147" parent="12" name="semester_per_part">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="148" parent="12" name="year_of_education">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="149" parent="12" name="semester-month">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="150" parent="12" name="result">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="151" parent="13" name="REQ_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="152" parent="13" name="SL_ID">
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="153" parent="13" name="ROLL_NO">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="154" parent="13" name="SL_TYPE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="155" parent="13" name="CHALLAN_NO">
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="156" parent="13" name="CHALLAN_DATE">
+        <data-type>date</data-type>
+      </column>
+      <column id="157" parent="13" name="ITEM_ID">
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="158" parent="13" name="REQ_DATE">
+        <data-type>date</data-type>
+      </column>
+      <column id="159" parent="13" name="DELEIVERY_DATE">
+        <data-type>date</data-type>
+      </column>
+      <column id="160" parent="13" name="ISSUED_CERT_NO">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="161" parent="13" name="ISSUED_DATE">
+        <data-type>date</data-type>
+      </column>
+      <column id="162" parent="13" name="REQ_STATUS">
+        <data-type>char(1)</data-type>
+      </column>
+      <column id="163" parent="13" name="ARCHIVE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="164" parent="13" name="REMARKS">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="165" parent="13" name="PRIMARY">
+        <columns>REQ_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="166" parent="14" name="SL_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="167" parent="14" name="SCHEME_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="168" parent="14" name="SCHEME_PART">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="169" parent="14" name="ANN_DATE">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="170" parent="14" name="TOTAL_PASS">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="171" parent="14" name="TOTAL_FAIL">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="172" parent="14" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="173" parent="14" name="TABULATOR_NAME">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="174" parent="14" name="CHECKER_NAME">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="175" parent="14" name="IS_ANNOUNCED">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <key id="176" parent="14" name="PRIMARY">
+        <columns>SL_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="177" parent="15" name="SL_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="178" parent="15" name="ROLL_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="179" parent="15" name="TOTAL_MARKS">
+        <data-type>int(6)</data-type>
+      </column>
+      <column id="180" parent="15" name="RESULT_REMARKS">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="181" parent="15" name="PERCENTAGE">
+        <data-type>decimal(6,2)</data-type>
+      </column>
+      <column id="182" parent="15" name="INDV_RESULT_ANN_DATE">
+        <data-type>date</data-type>
+      </column>
+      <column id="183" parent="15" name="CGPA">
+        <data-type>decimal(6,2)</data-type>
+      </column>
+      <column id="184" parent="15" name="OBTAIN_MARKS">
+        <data-type>int(6)</data-type>
+      </column>
+      <column id="185" parent="15" name="NO_DUES_REMARKS">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="186" parent="15" name="PREV_PART">
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="187" parent="15" name="PREV_ROLL_NO">
+        <data-type>varchar(18)</data-type>
+      </column>
+      <column id="188" parent="15" name="PREV_SL_ID">
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="189" parent="15" name="PREV_RESULT_REMARKS">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="190" parent="15" name="AC_II_NO">
+        <data-type>varchar(9)</data-type>
+      </column>
+      <column id="191" parent="15" name="AC_II_NO_DATED">
+        <data-type>date</data-type>
+      </column>
+      <column id="192" parent="15" name="PREV_CGPA">
+        <data-type>decimal(6,2)</data-type>
+      </column>
+      <column id="193" parent="15" name="PREV_OBTAIN_MARKS">
+        <data-type>int(6)</data-type>
+      </column>
+      <column id="194" parent="15" name="PREV_PERCENTAGE">
+        <data-type>decimal(6,2)</data-type>
+      </column>
+      <column id="195" parent="15" name="PREV_TOTAL_MARKS">
+        <data-type>int(6)</data-type>
+      </column>
+      <column id="196" parent="15" name="PRE_YEAR">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="197" parent="15" name="PRE_TYPE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="198" parent="15" name="PREV_BATCH_ID">
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="199" parent="15" name="CURRENT_RESULT_REMARKS">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="200" parent="15" name="PRIMARY">
+        <columns>SL_ID
+ROLL_NO</columns>
+        <primary>1</primary>
+      </key>
+      <column id="201" parent="16" name="SCHEME_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="202" parent="16" name="SCHEME_PART">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="203" parent="16" name="AC_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="204" parent="16" name="SL_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="205" parent="16" name="ROLL_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="206" parent="16" name="SEMESTER">
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="207" parent="16" name="COURSE_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="208" parent="16" name="MARKS_OBTAINED">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="209" parent="16" name="GRADE">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="210" parent="16" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="211" parent="16" name="MIN_MARKS">
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="212" parent="16" name="QP">
+        <data-type>double(5,2)</data-type>
+      </column>
+      <column id="213" parent="16" name="UNI_MARKS_OBTAINED">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="214" parent="16" name="COLLEGE_MARKS_OBTAINED">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="215" parent="16" name="REF_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="216" parent="16" name="REF_DATE">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="217" parent="16" name="PRIMARY">
+        <columns>SL_ID
+ROLL_NO
+SEMESTER
+COURSE_NO</columns>
+        <primary>1</primary>
+      </key>
+      <column id="218" parent="17" name="SCHEME_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="219" parent="17" name="SCHEME_PART">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="220" parent="17" name="AC_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="221" parent="17" name="SL_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="222" parent="17" name="ROLL_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="223" parent="17" name="SEMESTER">
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="224" parent="17" name="COURSE_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="225" parent="17" name="MARKS_OBTAINED">
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="226" parent="17" name="GRADE">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="227" parent="17" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="228" parent="17" name="MIN_MARKS">
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="229" parent="17" name="QP">
+        <data-type>double(5,2)</data-type>
+      </column>
+      <column id="230" parent="17" name="UNI_MARKS_OBTAINED">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="231" parent="17" name="COLLEGE_MARKS_OBTAINED">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="232" parent="17" name="REF_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="233" parent="17" name="REF_DATE">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="234" parent="17" name="TEACHER_CODE">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="235" parent="17" name="TEACHER_ID">
+        <data-type>int(5)</data-type>
+      </column>
+      <column id="236" parent="17" name="REMARKS_PROGRAM_NAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="237" parent="17" name="COURSE_TITLE">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="238" parent="17" name="BATCH_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="239" parent="17" name="IS_LOCKED">
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="240" parent="17" name="PRIMARY">
+        <columns>SL_ID
+ROLL_NO
+SEMESTER
+COURSE_NO
+TEACHER_CODE</columns>
+        <primary>1</primary>
+      </key>
+      <column id="241" parent="18" name="SL_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="242" parent="18" name="ROLL_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="243" parent="18" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="244" parent="18" name="PRIMARY">
+        <columns>SL_ID
+ROLL_NO</columns>
+        <primary>1</primary>
+      </key>
+      <column id="245" parent="19" name="SEMESTER">
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="246" parent="19" name="SL_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="247" parent="19" name="ROLL_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="248" parent="19" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="249" parent="19" name="PRIMARY">
+        <columns>SL_ID
+ROLL_NO
+SEMESTER</columns>
+        <primary>1</primary>
+      </key>
+      <column id="250" parent="20" name="log_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="251" parent="20" name="mobile_number">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="252" parent="20" name="roll_no">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="253" parent="20" name="rec_date">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <key id="254" parent="20" name="PRIMARY">
+        <columns>log_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="255" parent="21" name="DEPT_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="256" parent="21" name="DEPT_NAME">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="257" parent="21" name="DATE_OF_ANNOUNCE">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="258" parent="21" name="IS_ANNOUNCE">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <key id="259" parent="21" name="PRIMARY">
+        <columns>DEPT_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="260" parent="22" name="notification_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="261" parent="22" name="noti_date">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="262" parent="22" name="batch_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="263" parent="22" name="message">
+        <mandatory>1</mandatory>
+        <data-type>varchar(400)</data-type>
+      </column>
+      <column id="264" parent="22" name="total_sent_msg">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="265" parent="22" name="PRIMARY">
+        <columns>notification_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="266" parent="23" name="PART">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="267" parent="23" name="BATCH_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="268" parent="23" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="269" parent="23" name="YEAR">
+        <data-type>date</data-type>
+      </column>
+      <key id="270" parent="23" name="PRIMARY">
+        <columns>PART
+BATCH_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="271" parent="24" name="PREFIX_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="272" parent="24" name="PREFIX_NAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="273" parent="24" name="REMARKS">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="274" parent="24" name="ORDERBY">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="275" parent="24" name="PRIMARY">
+        <columns>PREFIX_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="276" parent="25" name="PROG_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(6)</data-type>
+      </column>
+      <column id="277" parent="25" name="DEPT_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="278" parent="25" name="PROGRAM_TITLE">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="279" parent="25" name="SEM_DURATION">
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="280" parent="25" name="SEM_PER_PART">
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="281" parent="25" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="282" parent="25" name="DEGREE_TITLE">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="283" parent="25" name="SUBJECT">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="284" parent="25" name="GRADUATE_POSTGRADUATE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="285" parent="25" name="SEM_MONTH_DURATION">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <key id="286" parent="25" name="PRIMARY">
+        <columns>PROG_ID
+DEPT_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="287" parent="26" name="SCHEME_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="288" parent="26" name="DEPT_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="289" parent="26" name="PROG_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="290" parent="26" name="YEAR">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="291" parent="26" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="292" parent="26" name="MIN_MARKS">
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="293" parent="26" name="GROUP_DESC">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <key id="294" parent="26" name="PRIMARY">
+        <columns>SCHEME_ID
+PROG_ID
+DEPT_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="295" parent="27" name="SCHEME_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="296" parent="27" name="SCHEME_PART">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="297" parent="27" name="SEMESTER">
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="298" parent="27" name="COURSE_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="299" parent="27" name="COURSE_TITLE">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="300" parent="27" name="CR_HRS">
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="301" parent="27" name="MAX_MARKS">
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="302" parent="27" name="REMARKS">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="303" parent="27" name="SUBJ_TYPE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="304" parent="27" name="IS_CREDITABLE">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <key id="305" parent="27" name="PRIMARY">
+        <columns>SCHEME_ID
+SCHEME_PART
+SEMESTER
+COURSE_NO
+COURSE_TITLE</columns>
+        <primary>1</primary>
+      </key>
+      <column id="306" parent="28" name="SCHEME_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="307" parent="28" name="SCHEME_PART">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="308" parent="28" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="309" parent="28" name="PRIMARY">
+        <columns>SCHEME_ID
+SCHEME_PART</columns>
+        <primary>1</primary>
+      </key>
+      <column id="310" parent="29" name="SCHEME_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="311" parent="29" name="SCHEME_PART">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="312" parent="29" name="SEMESTER">
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="313" parent="29" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="314" parent="29" name="PRIMARY">
+        <columns>SCHEME_PART
+SCHEME_ID
+SEMESTER</columns>
+        <primary>1</primary>
+      </key>
+      <column id="315" parent="30" name="SL_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="316" parent="30" name="PART">
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="317" parent="30" name="BATCH_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="318" parent="30" name="PREP_DATE">
+        <data-type>date</data-type>
+      </column>
+      <column id="319" parent="30" name="YEAR">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="320" parent="30" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="321" parent="30" name="PART_GROUP">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="322" parent="30" name="TYPE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <key id="323" parent="30" name="PRIMARY">
+        <columns>SL_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="324" parent="31" name="SL_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="325" parent="31" name="ROLL_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="326" parent="31" name="BATCH_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="327" parent="31" name="PART">
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="328" parent="31" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="329" parent="31" name="STATUS">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <key id="330" parent="31" name="PRIMARY">
+        <columns>SL_ID
+ROLL_NO</columns>
+        <primary>1</primary>
+      </key>
+      <column id="331" parent="32" name="ROLL_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="332" parent="32" name="BATCH_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="333" parent="32" name="PART">
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="334" parent="32" name="REMARKS">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="335" parent="32" name="PRIMARY">
+        <columns>ROLL_NO
+BATCH_ID
+PART</columns>
+        <primary>1</primary>
+      </key>
+      <column id="336" parent="33" name="BATCH_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="337" parent="33" name="ROLL_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="338" parent="33" name="TAG_NO">
+        <data-type>int(5)</data-type>
+      </column>
+      <column id="339" parent="33" name="NAME">
+        <data-type>varchar(70)</data-type>
+      </column>
+      <column id="340" parent="33" name="FNAME">
+        <data-type>varchar(70)</data-type>
+      </column>
+      <column id="341" parent="33" name="SURNAME">
+        <data-type>varchar(70)</data-type>
+      </column>
+      <column id="342" parent="33" name="GENDER">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="343" parent="33" name="CELL">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="344" parent="33" name="PHONE">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="345" parent="33" name="HOME_ADDRESS">
+        <mandatory>1</mandatory>
+        <data-type>varchar(300)</data-type>
+      </column>
+      <column id="346" parent="33" name="PERMANENT_ADDRESS">
+        <mandatory>1</mandatory>
+        <data-type>varchar(300)</data-type>
+      </column>
+      <column id="347" parent="33" name="REMARKS">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="348" parent="33" name="REF_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="349" parent="33" name="REF_DATE">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="350" parent="33" name="NIC">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="351" parent="33" name="DISTRICT">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="352" parent="33" name="U_R">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="353" parent="33" name="CANDIDATE_ID">
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="354" parent="33" name="NATIONALITY">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="355" parent="33" name="EMAIL">
+        <data-type>varbinary(40)</data-type>
+      </column>
+      <key id="356" parent="33" name="PRIMARY">
+        <columns>BATCH_ID
+ROLL_NO</columns>
+        <primary>1</primary>
+      </key>
+      <column id="357" parent="34" name="DEPT_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="358" parent="34" name="USERS_NAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="359" parent="34" name="PASSWORD">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="360" parent="34" name="PRIMARY">
+        <columns>USERS_NAME</columns>
+        <primary>1</primary>
+      </key>
+      <column id="361" parent="35" name="YEAR_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="362" parent="35" name="YEAR">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="363" parent="35" name="REMARKS">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="364" parent="35" name="PRIMARY">
+        <columns>YEAR_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="365" parent="36" name="ROLL_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="366" parent="36" name="R1">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="367" parent="36" name="R2">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="368" parent="36" name="R3">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="369" parent="36" name="NAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="370" parent="36" name="FNAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="371" parent="36" name="SURNAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="372" parent="36" name="GENDER">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="373" parent="36" name="CELL">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="374" parent="36" name="PHONE">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="375" parent="36" name="DEPARTMENT">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="376" parent="36" name="YEAR">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="377" parent="36" name="PROGRAM">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>

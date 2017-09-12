@@ -1,0 +1,28 @@
+/* new queries
+		
+		$query="SELECT SL.SL_ID, SL.PART,SL.BATCH_ID,SL.PREP_DATE,SL.YEAR,SL.REMARKS,SL.PART_GROUP,SL.TYPE,L.`SCHEME_ID`,B.`SHIFT`,B.`GROUP_DESC`,b.`REMARKS`,b.`YEAR`
+FROM seat_list SL
+INNER JOIN ledger L ON  SL.SL_ID=L.SL_ID AND SL.PART=L.SCHEME_PART
+INNER JOIN `batch` AS B  ON B.`BATCH_ID`=SL.`BATCH_ID`
+WHERE SL.year=2014
+AND SL.PART=1";
+$result=mysql_query($query);
+ while($row_seat_list=mysql_fetch_object($result)){
+			$SL_ID=$row_seat_list->SL_ID;
+			$SCHEME_ID=$row_seat_list->SCHEME_ID;	
+
+			$query="SELECT DISTINCT(`COURSE_NO`) FROM ledger_details WHERE SCHEME_ID =1142 AND ledger_details.SEMESTER = 1   AND SL_ID=14045";
+
+
+		/*		
+		$student_code_query="SELECT STUDENT_CODE FROM ledger_details_teacher WHERE STUDENT_CODE ='".$STUDENT_CODE."'";
+		//echo($student_code_query);
+		$result_student_code=mysql_query($student_code_query);
+		$row_student_code=mysql_num_rows($result_student_code);
+		//echo("Rows: ".$row_student_code."</br>");
+		
+		if($row_student_code>0){
+				echo("studentcode");
+				return;
+		}
+		*/

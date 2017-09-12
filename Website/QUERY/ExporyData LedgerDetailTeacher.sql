@@ -1,0 +1,16 @@
+SELECT * FROM `batch` AS b WHERE b.`PROG_ID`=175;
+
+SELECT `SL_ID`,SL.TYPE 
+FROM seat_list SL
+WHERE SL.`YEAR`=2015 AND sl.`BATCH_ID`=1195;
+
+SELECT * FROM ledger_details AS ld
+WHERE ld.SEMESTER = 8  AND ld.`SL_ID`=14286 AND ld.`COURSE_NO`='BUS611';
+
+
+
+SELECT * FROM ledger_details AS ld 
+INNER JOIN `seat_list` AS sl ON sl.`SL_ID`=ld.`SL_ID` AND sl.`YEAR`=2015
+INNER JOIN `scheme` AS s ON s.`SCHEME_ID`=ld.`SCHEME_ID` AND s.`PROG_ID`=8
+WHERE ld.SEMESTER = 3  AND ld.`COURSE_NO`='ENGL400'
+;					 

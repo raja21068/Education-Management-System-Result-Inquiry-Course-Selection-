@@ -1,0 +1,10 @@
+1. get_scheme_id ok
+2. display_part_remarks ok
+3. display_name_fname_surname_rollno ok
+4. display_marks ok
+5.get_display_ledger_detail_summary ok
+6.get_last_result ok
+7.get_decimal_format ok 
+8get_semester_decode ok
+get_ledger_detail_query ok
+get_display_ledger_detail ok

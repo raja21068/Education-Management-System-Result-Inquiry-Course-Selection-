@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="7a9062b6-9903-401d-a8e4-4923db56a28e" name="Default" comment="" />
+    <ignored path="exam.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="exam" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="bar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.033182506">
+              <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="537" column="24" selection-start-line="537" selection-start-column="10" selection-end-line="537" selection-end-column="24" />
+              <folding>
+                <marker date="1457986948073" expanded="true" signature="576:687" placeholder="select PROG_..program..." />
+                <marker date="1457986948073" expanded="true" signature="1184:1219" placeholder="SELECT YEAR ..." />
+                <marker date="1457986948073" expanded="true" signature="1486:1588" placeholder="SELECT FC.`F..faculty_members..." />
+                <marker date="1457986948073" expanded="true" signature="1922:1963" placeholder="select schem..ledger..." />
+                <marker date="1457986948073" expanded="true" signature="2453:2577" placeholder="select BATCH..student_registration..." />
+                <marker date="1457986948073" expanded="true" signature="3759:3958" placeholder="SELECT BATCH..batch..." />
+                <marker date="1457986948073" expanded="true" signature="4444:4916" placeholder="SELECT SEAT_..seat_list..." />
+                <marker date="1457986948073" expanded="true" signature="6174:6254" placeholder="select semes..scheme_semester..." />
+                <marker date="1457986948073" expanded="true" signature="7012:7031" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="7140:7159" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="7202:7221" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="7263:7282" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="7323:7342" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="7383:7402" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="7443:7462" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="7501:7520" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="15520:15579" placeholder="select remar..part..." />
+                <marker date="1457986948073" expanded="true" signature="18124:18219" placeholder="SELECT RESUL..ledger_detail_summary..." />
+                <marker date="1457986948073" expanded="true" signature="19682:19726" placeholder="SELECT DISTI..." />
+                <marker date="1457986948073" expanded="true" signature="20160:20251" placeholder="SELECT DISTI..." />
+                <marker date="1457986948073" expanded="true" signature="20505:20618" placeholder="SELECT DEPT_..department..." />
+                <marker date="1457986948073" expanded="true" signature="20888:21751" placeholder="SELECT DEPT_..department..." />
+                <marker date="1457986948073" expanded="true" signature="23341:23432" placeholder="SELECT DEPT_..department..." />
+                <marker date="1457986948073" expanded="true" signature="23744:23842" placeholder="SELECT PROG_..program..." />
+                <marker date="1457986948073" expanded="true" signature="24251:24500" placeholder="select SL_ID..ledger_detail_summary..." />
+                <marker date="1457986948073" expanded="true" signature="24883:24900" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="24954:24971" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="25029:25046" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="25103:25120" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="25174:25191" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="25251:25268" placeholder="..." />
+                <marker date="1457986948073" expanded="true" signature="27200:27299" placeholder="SELECT NAME,..student_registration..." />
+                <marker date="1457986948073" expanded="true" signature="28136:28235" placeholder="SELECT NAME,..student_registration..." />
+                <marker date="1457986948073" expanded="true" signature="28582:28699" placeholder="SELECT COUNT..ledger_detail_summary..." />
+                <marker date="1457986948073" expanded="true" signature="28988:29087" placeholder="SELECT COUNT..seat_list..." />
+                <marker date="1457986948073" expanded="true" signature="30543:31205" placeholder="SELECT COUNT..student_registration..." />
+                <marker date="1457986948073" expanded="true" signature="32563:32751" placeholder="insert into comments..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-exam-form/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getgazet.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-exam-form/getgazet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <marker date="1460491028319" expanded="true" signature="2687:2690" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="print.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-exam-form/print.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="block.rnc" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core-scripting.rnc" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/m/tl2/bar.php" />
+        <option value="$PROJECT_DIR$/m/unsuccessful_successful_candidates.php" />
+        <option value="$PROJECT_DIR$/unsuccessful_candidates.php" />
+        <option value="$PROJECT_DIR$/form/getCources.php" />
+        <option value="$PROJECT_DIR$/course.php" />
+        <option value="$PROJECT_DIR$/gazet/gazet.php" />
+        <option value="$PROJECT_DIR$/form/DataBaseManager.php" />
+        <option value="$PROJECT_DIR$/form/DataBase.php" />
+        <option value="$PROJECT_DIR$/form/printExamForm" />
+        <option value="$PROJECT_DIR$/bar.php" />
+        <option value="$PROJECT_DIR$/form/gazet.php" />
+        <option value="$PROJECT_DIR$/form/test.php" />
+        <option value="$PROJECT_DIR$/form/getgazet.php" />
+        <option value="$PROJECT_DIR$/form/DataBaseManager1.php" />
+        <option value="$PROJECT_DIR$/form/printExamForm.php" />
+        <option value="$PROJECT_DIR$/online-exam-form-OLD/DataBaseManager1.php" />
+        <option value="$PROJECT_DIR$/Database.php" />
+        <option value="$PROJECT_DIR$/online-exam-form/index.php" />
+        <option value="$PROJECT_DIR$/online-exam-form/printExamForm.php" />
+        <option value="$PROJECT_DIR$/online-exam-form/print.php" />
+        <option value="$PROJECT_DIR$/online-exam-form/getgazet.php" />
+        <option value="$PROJECT_DIR$/online-exam-form/DataBaseManager1.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1292" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../google-plus" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\RAJA DELL LAPTOP\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a9062b6-9903-401d-a8e4-4923db56a28e" name="Default" comment="" />
+      <created>1441091608045</created>
+      <option name="number" value="Default" />
+      <updated>1441091608045</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1292" height="876" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2974068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23726542" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26772794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="537" column="24" selection-start-line="537" selection-start-column="10" selection-end-line="537" selection-end-column="24" />
+          <folding>
+            <marker date="1457986948073" expanded="true" signature="576:687" placeholder="select PROG_..program..." />
+            <marker date="1457986948073" expanded="true" signature="1184:1219" placeholder="SELECT YEAR ..." />
+            <marker date="1457986948073" expanded="true" signature="1486:1588" placeholder="SELECT FC.`F..faculty_members..." />
+            <marker date="1457986948073" expanded="true" signature="1922:1963" placeholder="select schem..ledger..." />
+            <marker date="1457986948073" expanded="true" signature="2453:2577" placeholder="select BATCH..student_registration..." />
+            <marker date="1457986948073" expanded="true" signature="3759:3958" placeholder="SELECT BATCH..batch..." />
+            <marker date="1457986948073" expanded="true" signature="4444:4916" placeholder="SELECT SEAT_..seat_list..." />
+            <marker date="1457986948073" expanded="true" signature="6174:6254" placeholder="select semes..scheme_semester..." />
+            <marker date="1457986948073" expanded="true" signature="7012:7031" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7140:7159" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7202:7221" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7263:7282" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7323:7342" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7383:7402" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7443:7462" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7501:7520" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="15520:15579" placeholder="select remar..part..." />
+            <marker date="1457986948073" expanded="true" signature="18124:18219" placeholder="SELECT RESUL..ledger_detail_summary..." />
+            <marker date="1457986948073" expanded="true" signature="19682:19726" placeholder="SELECT DISTI..." />
+            <marker date="1457986948073" expanded="true" signature="20160:20251" placeholder="SELECT DISTI..." />
+            <marker date="1457986948073" expanded="true" signature="20505:20618" placeholder="SELECT DEPT_..department..." />
+            <marker date="1457986948073" expanded="true" signature="20888:21751" placeholder="SELECT DEPT_..department..." />
+            <marker date="1457986948073" expanded="true" signature="23341:23432" placeholder="SELECT DEPT_..department..." />
+            <marker date="1457986948073" expanded="true" signature="23744:23842" placeholder="SELECT PROG_..program..." />
+            <marker date="1457986948073" expanded="true" signature="24251:24500" placeholder="select SL_ID..ledger_detail_summary..." />
+            <marker date="1457986948073" expanded="true" signature="24883:24900" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="24954:24971" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="25029:25046" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="25103:25120" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="25174:25191" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="25251:25268" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="27200:27299" placeholder="SELECT NAME,..student_registration..." />
+            <marker date="1457986948073" expanded="true" signature="28136:28235" placeholder="SELECT NAME,..student_registration..." />
+            <marker date="1457986948073" expanded="true" signature="28582:28699" placeholder="SELECT COUNT..ledger_detail_summary..." />
+            <marker date="1457986948073" expanded="true" signature="28988:29087" placeholder="SELECT COUNT..seat_list..." />
+            <marker date="1457986948073" expanded="true" signature="30543:31205" placeholder="SELECT COUNT..student_registration..." />
+            <marker date="1457986948073" expanded="true" signature="32563:32751" placeholder="insert into comments..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-exam-form/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-exam-form/getgazet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <marker date="1460491028319" expanded="true" signature="2687:2690" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-exam-form/print.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/announcements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facultyMembers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getBatch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getCources.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marksheet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="43" selection-start-line="124" selection-start-column="32" selection-end-line="131" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/announcements - Copy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unsuccessful_successful_candidates_request_handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getProgram.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unsuccessful_candidates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/unsuccessful_successful_candidates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unsuccessful_candidates_request_handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unsuccessful_successful_candidates_request_handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="128" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unsuccessful_successful_candidates_request_handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getProgram.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/unsuccessful_successful_candidates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unsuccessful_candidates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unsuccessful_candidates_request_handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.576923">
+          <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../xampp/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.615385">
+          <caret line="181" column="23" selection-start-line="181" selection-start-column="23" selection-end-line="181" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/announcements - Copy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/announcements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facultyMembers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getBatch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getCources.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marksheet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="43" selection-start-line="124" selection-start-column="32" selection-end-line="131" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event_notification/DatabaseManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-exam-form-OLD/DataBaseManager1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49321267">
+          <caret line="155" column="11" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-exam-form/print.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="537" column="24" selection-start-line="537" selection-start-column="10" selection-end-line="537" selection-end-column="24" />
+          <folding>
+            <marker date="1457986948073" expanded="true" signature="576:687" placeholder="select PROG_..program..." />
+            <marker date="1457986948073" expanded="true" signature="1184:1219" placeholder="SELECT YEAR ..." />
+            <marker date="1457986948073" expanded="true" signature="1486:1588" placeholder="SELECT FC.`F..faculty_members..." />
+            <marker date="1457986948073" expanded="true" signature="1922:1963" placeholder="select schem..ledger..." />
+            <marker date="1457986948073" expanded="true" signature="2453:2577" placeholder="select BATCH..student_registration..." />
+            <marker date="1457986948073" expanded="true" signature="3759:3958" placeholder="SELECT BATCH..batch..." />
+            <marker date="1457986948073" expanded="true" signature="4444:4916" placeholder="SELECT SEAT_..seat_list..." />
+            <marker date="1457986948073" expanded="true" signature="6174:6254" placeholder="select semes..scheme_semester..." />
+            <marker date="1457986948073" expanded="true" signature="7012:7031" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7140:7159" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7202:7221" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7263:7282" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7323:7342" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7383:7402" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7443:7462" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="7501:7520" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="15520:15579" placeholder="select remar..part..." />
+            <marker date="1457986948073" expanded="true" signature="18124:18219" placeholder="SELECT RESUL..ledger_detail_summary..." />
+            <marker date="1457986948073" expanded="true" signature="19682:19726" placeholder="SELECT DISTI..." />
+            <marker date="1457986948073" expanded="true" signature="20160:20251" placeholder="SELECT DISTI..." />
+            <marker date="1457986948073" expanded="true" signature="20505:20618" placeholder="SELECT DEPT_..department..." />
+            <marker date="1457986948073" expanded="true" signature="20888:21751" placeholder="SELECT DEPT_..department..." />
+            <marker date="1457986948073" expanded="true" signature="23341:23432" placeholder="SELECT DEPT_..department..." />
+            <marker date="1457986948073" expanded="true" signature="23744:23842" placeholder="SELECT PROG_..program..." />
+            <marker date="1457986948073" expanded="true" signature="24251:24500" placeholder="select SL_ID..ledger_detail_summary..." />
+            <marker date="1457986948073" expanded="true" signature="24883:24900" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="24954:24971" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="25029:25046" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="25103:25120" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="25174:25191" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="25251:25268" placeholder="..." />
+            <marker date="1457986948073" expanded="true" signature="27200:27299" placeholder="SELECT NAME,..student_registration..." />
+            <marker date="1457986948073" expanded="true" signature="28136:28235" placeholder="SELECT NAME,..student_registration..." />
+            <marker date="1457986948073" expanded="true" signature="28582:28699" placeholder="SELECT COUNT..ledger_detail_summary..." />
+            <marker date="1457986948073" expanded="true" signature="28988:29087" placeholder="SELECT COUNT..seat_list..." />
+            <marker date="1457986948073" expanded="true" signature="30543:31205" placeholder="SELECT COUNT..student_registration..." />
+            <marker date="1457986948073" expanded="true" signature="32563:32751" placeholder="insert into comments..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-exam-form/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-exam-form/getgazet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <marker date="1460491028319" expanded="true" signature="2687:2690" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033182506">
+          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

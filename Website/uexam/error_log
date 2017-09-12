@@ -1,0 +1,12 @@
+[20-Feb-2014 09:13:48 UTC] PHP Warning:  include(Database.php): failed to open stream: No such file or directory in /home/stbbedup/public_html/usindhexam/uexam/transcripts.php on line 68
+[20-Feb-2014 09:13:48 UTC] PHP Warning:  include(Database.php): failed to open stream: No such file or directory in /home/stbbedup/public_html/usindhexam/uexam/transcripts.php on line 68
+[20-Feb-2014 09:13:48 UTC] PHP Warning:  include(): Failed opening 'Database.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/stbbedup/public_html/usindhexam/uexam/transcripts.php on line 68
+[20-Feb-2014 09:13:48 UTC] PHP Fatal error:  Call to undefined function display_seat_list_years_in_combobox() in /home/stbbedup/public_html/usindhexam/uexam/transcripts.php on line 97
+[20-Feb-2014 09:14:02 UTC] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[20-Feb-2014 09:14:02 UTC] PHP Fatal error:  Unknown: Failed opening required '/home/stbbedup/public_html/usindhexam/uexam/transcript_handler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in Unknown on line 0
+[20-Feb-2014 09:14:03 UTC] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[20-Feb-2014 09:14:03 UTC] PHP Fatal error:  Unknown: Failed opening required '/home/stbbedup/public_html/usindhexam/uexam/transcript_handler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in Unknown on line 0
+[20-Feb-2014 09:14:05 UTC] PHP Warning:  include(Database.php): failed to open stream: No such file or directory in /home/stbbedup/public_html/usindhexam/uexam/transcripts.php on line 68
+[20-Feb-2014 09:14:05 UTC] PHP Warning:  include(Database.php): failed to open stream: No such file or directory in /home/stbbedup/public_html/usindhexam/uexam/transcripts.php on line 68
+[20-Feb-2014 09:14:05 UTC] PHP Warning:  include(): Failed opening 'Database.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/stbbedup/public_html/usindhexam/uexam/transcripts.php on line 68
+[20-Feb-2014 09:14:05 UTC] PHP Fatal error:  Call to undefined function display_seat_list_years_in_combobox() in /home/stbbedup/public_html/usindhexam/uexam/transcripts.php on line 97
