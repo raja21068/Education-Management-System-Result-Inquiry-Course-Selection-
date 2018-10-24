@@ -1,4 +1,12 @@
 ﻿<!DOCTYPE HTML>
+﻿
+﻿
+﻿<?php 
+@session_start();
+
+require_once('attendance_check_login.php');
+//echo $_SESSION['USER_ID'];
+?>
 <html lang="en-US">
 <head>
   <link rel="shortcut icon" href="favicon.ico">
@@ -14,7 +22,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <?php
-include("bar.php");
+include("attendanceCellBar.php");
 ?> 
 <script>
 	$(document).ready(function(){
@@ -55,11 +63,26 @@ include("bar.php");
 
 	?>
 	
+	
+	<?php 
+if($_SESSION['REMARKS'] == 'TEACHER_LOGIN')
+{
+    
+    $queryJunction = 'WHERE  MEMBER_ID='.$_SESSION['USER_ID'];
+}else
+{
+    $queryJunction = '';
+}
+
+
+?>	
+
+
 <select  name="facMember_id" id="facMember_id" size='1'  >
 
 							<option value="">--Select Name--</option>
 						<?php
-						$query="SELECT 	MEMBER_ID,DEPT_ID,FIRST_NAME,LAST_NAME FROM faculty_members  order by FIRST_NAME";
+						$query="SELECT 	MEMBER_ID,DEPT_ID,FIRST_NAME,LAST_NAME FROM faculty_members $queryJunction  order by FIRST_NAME";
 						$result=mysql_query($query)or die(header("Location: error.html"));
 						while($row=mysql_fetch_object($result))
 						echo("<option value=$row->MEMBER_ID>".$row->FIRST_NAME." ".$row->LAST_NAME."</option> ");      

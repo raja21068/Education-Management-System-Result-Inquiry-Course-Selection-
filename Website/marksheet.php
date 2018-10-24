@@ -5,7 +5,7 @@
     <!-- Basic Page Needs
   ================================================== -->
 <link rel="shortcut icon" href="favicon.ico">
-<link rel="icon" type="image/gif" href="images/animated_favicon1.gif">
+<link rel="icon" type="image/gif" href="http://104.223.95.210/images/animated_favicon1.gif">
 
 <!-- Basic Page Needs
 ================================================== -->
@@ -50,7 +50,7 @@ include("bar.php");
 	
 
 	
-	//echo("<FORM ACTION=marksheet_handler.php method=post target=test> ");
+	echo("<FORM ACTION=printMarksheet.php  method=post> ");
 	?>
 	
 	<?php
@@ -59,28 +59,32 @@ include("bar.php");
 
 	echo("<TR> ");
 	echo("	<TD ALIGN=RIGHT><B>Roll No.</B></TD> ");
-	echo("	<TD><input type='text' name='roll_no' id='roll_no' size='10'><FONT COLOR=RED SIZE=2> for example <U>2K10/CSE/60</U></TD>  ");
+	echo("	<TD ><input type='text' name='roll_no' id='roll_no' size='10'><FONT COLOR=RED SIZE=2> for example <U>2K10/CSE/60</U></TD>  ");
 	echo("</TR>");
 		echo(" <TR>");
 		echo("	<TD ALIGN=RIGHT><B>Part</B></TD> ");
 	
-		echo(" <TD>");
+		echo(" <TD >");
 	echo("		<select name='part' id='part' size='1'> ");
 	echo("		 <option value=1>I</option> ");
 	echo("		 <option value=2>II</option> ");
 	echo("		 <option value=3>III</option> ");
 	echo("		 <option value=4>IV</option> ");
 	echo("		 <option value=5>V</option> ");
-	echo("		</select> ");
+	echo("		</select>     ");
+	
 	echo("	</TD> ");
 	echo("</TR> ");
 		echo("<TR> ");
-	echo("<TD ALIGN='CENTER' COLSPAN='2'> ");
+	echo("<TD ALIGN='CENTER' COLSPAN='2' > ");
 
-     echo("<INPUT TYPE='SUBMIT' id='display' class='submit' VALUE='View Marksheet'> ");
-	  echo("<img src='images/busy.gif' id='ajax-ico' style='display:none;'> ");
+     echo("<INPUT TYPE='BUTTON' id='display' class='submit' VALUE='View Marksheet'>     ");
 
-		echo("</TD> ");
+	  echo("<img src='images/busy.gif' id='ajax-ico' style='display:none;'> </TD>");
+	  
+	echo("<TD ALIGN='CENTER'> <INPUT TYPE='SUBMIT' id='print' class='submit' VALUE='Print Marksheet'> </td>");
+
+
 
 	echo("</TR> ");
 
@@ -89,7 +93,7 @@ include("bar.php");
 	
 	echo("</TABLE> ");
 
-//	echo("</form> ");
+	echo("</form> ");
 			echo("<div id='Transcript'> </div>");
 
         echo '<br/>';
@@ -110,7 +114,7 @@ include("bar.php");
 
 
 
-<script type="text/javascript" src="style/js/scripts.js"></script>
+<script type="text/javascript" src="http://104.223.95.210/style/js/scripts.js"></script>
 
 </body>
 
@@ -138,6 +142,27 @@ $("#display").click(function(){
 				});
 				
 			
+			$("#print").click(function(){
+				
+				// alert("dd");
+				 $('#ajax-ico').show();
+				 var roll_no = $("#roll_no").val();
+				 var part = $("#part").val();
+                  //alert (roll_no);                
+				  				$.post("printMarksheet.php", {
+										roll_no: roll_no,
+										part: part		
+		                                }, function(response) {
+										//	alert(response);
+                                            //$("#Transcript").html(response);
+                                            $('#ajax-ico').hide();
+                                        });	
+										
+										
+						
+										
+				
+				});
 
 </script>
 </html>
