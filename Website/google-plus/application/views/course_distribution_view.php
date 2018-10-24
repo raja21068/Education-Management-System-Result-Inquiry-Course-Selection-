@@ -109,17 +109,22 @@ echo form_open('new_registration_fac/personal_information_save',$attributes);
 									$PART =$courseDist['SCHEME_PART'];
 									$MEMBER_ID_1=$courseDist['MEMBER_ID_1'];
 									$PASS=$courseDist['PASS'];
+									$COURSE_DISTRIBUITION_ID=$courseDist['COURSE_DISTRIBUITION_ID'];
+									 $shift =$courseDist['SHIFT'];
+        
+                                    $group =$courseDist['GROUP_DESC'];
+                                    $progId =$courseDist['PROG_ID'];
 									
 									if($PART!=$PAR){
 										$PAR=$PART;
 										echo("<TR>");
-											echo("<TH colspan='4' style='text-align: center;' class='success'> PART $PART</TH>");
+											echo("<TH colspan='5' style='text-align: center;' class='success'> PART $PART</TH>");
 											echo("</TR>");
 									}
 									if($SEMESTER!=$SEM){
 										$SEM=$SEMESTER;
 											echo("<TR>");
-											echo("<TH colspan='4' class='danger' style='text-align: center;'> SEMESTER $SEMESTER</TH>");
+											echo("<TH colspan='5' class='danger' style='text-align: center;'> SEMESTER $SEMESTER</TH>");
 											echo("</TR>");
 											echo("</TR>");
 						
@@ -128,6 +133,7 @@ echo form_open('new_registration_fac/personal_information_save',$attributes);
 												echo("      <th class='info' style='text-align: center;'>COURSE NO</th>");
 												echo("      <th class='info' style='text-align: center;'>COURSE TITTLE</th>");
 												echo("      <th class='info' style='text-align: center;'>NAME</th>");
+												echo("      <th class='info' style='text-align: center;'>REMARKS</th>");
 																	
 												echo("</tr>");
 															}
@@ -155,8 +161,10 @@ echo form_open('new_registration_fac/personal_information_save',$attributes);
 									<OPTION value='<?php echo $MEMBER_ID; ?>' <?php if($MEMBER_ID_1 == $MEMBER_ID){echo "selected";}?> ><?php echo("$FIRST_NAME $LAST_NAME"); ?> </OPTION>");
 									<?php
 									}
-									echo("</SELECT></TD>");
+								echo("</SELECT></TD>");
+								echo("<TD><input type='hidden' id='REMARKS' name='REMARKS' /></TD>");	
 								echo("<input type='hidden' id='COURSE_NO' name='COURSE_NO' value='$COURSE_NO' />");
+								echo("<input type='hidden' id='COURSE_DISTRIBUITION_ID' name='COURSE_DISTRIBUITION_ID' value='$COURSE_DISTRIBUITION_ID' />");
 								echo("<input type='hidden' id='SCHEME_ID' name='SCHEME_ID' value='$SCHEME_ID' />");
 								echo("<input type='hidden' id='PASS' name='PASS' value='$PASS' />");
 
@@ -238,7 +246,16 @@ echo form_open('new_registration_fac/personal_information_save',$attributes);
 <?php
 
 	echo form_open('/course_distribution_cantroler/print_form');
-	echo("<input type='hidden' name='SCHEME_ID' value='$SCHEME_ID'/> <td><input type='submit' class='btn btn-primary btn-lg' value='Print'> </td>");
+	
+	?>
+	            <input type="hidden" name="prog_id" value="<?php echo $progId ?>">
+                
+                
+                <input type="hidden" name="group_desc" value="<?php echo $group ?>">
+                
+                <input type="hidden" name="shift" value="<?php echo $shift ?>">
+	<?php
+	echo("<td><input type='submit' class='btn btn-primary btn-lg' value='Print'> </td>");
 	echo form_close();
 
 
@@ -263,6 +280,11 @@ $("#save").click(function(){
 //			alert(NAME1);
 		});
 
+	var COURSE_DISTRIBUITION_ID = [];
+	$('input[name=COURSE_DISTRIBUITION_ID]').each(function() {
+			COURSE_DISTRIBUITION_ID.push($(this).val());
+//			alert(NAME1);
+		});
 	
 		var COURSE_NO = [];
 		$('input[name=COURSE_NO]').each(function() {
@@ -274,21 +296,27 @@ $("#save").click(function(){
 			PASS.push($(this).val());
 	//		alert(NAME1);
 		});
+		var REMARKS = [];
+		$('input[name=REMARKS]').each(function() {
+			REMARKS.push($(this).val());
+	//		alert(NAME1);
+		});
 
 
 
 		var SCHEME_ID = $("#SCHEME_ID").val();
-alert(SCHEME_ID);
+//alert(SCHEME_ID);
 		$.ajax({
 			type: "POST",
 //		url: "http://localhost/google-plus/index.php/course_distribution_cantroler/saveCourseDistribution/",
-					url: "http://exam.usindh.edu.pk/google/index.php/course_distribution_cantroler/saveCourseDistribution/",
+					url: "http://104.223.95.210/google/index.php/course_distribution_cantroler/saveCourseDistribution/",
 
 			data:{  'NAME1' : NAME1,
 				'COURSE_NO' : COURSE_NO,
 				'PASS' : PASS,
-				'SCHEME_ID':SCHEME_ID
-				
+				'SCHEME_ID':SCHEME_ID,
+					'COURSE_DISTRIBUITION_ID':COURSE_DISTRIBUITION_ID,
+				'REMARKS':REMARKS
 			 },
 		success: function(e){
 			alert(e);

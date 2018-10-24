@@ -16,7 +16,9 @@ var $cd,$dept_name,$program_name;
     function Header()
     {
         $this->SetFont("Arial",'B',20);
-        $this->Image(ASSET_PATH.'images/logo.png',20,5,25,25);
+        //$this->Image(ASSET_PATH.'images/logo.png',20,5,25,25);
+        //$this->Image('logo.png',20,5,25,25);
+        
 		
         $this->Image("picQr/".$this->cd[0]['PASS'].".png",170,5,30);
       //

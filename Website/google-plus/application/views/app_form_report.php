@@ -18,7 +18,8 @@ var $deptName,$cr_hrs,$max_marks,$lds;
     function Header()
     {
         $this->SetFont("Arial",'B',20);
-        $this->Image(ASSET_PATH.'images/logo.png',20,5,25,25);
+        //$this->Image('http://104.223.95.210/google/assets/images/logo.png',20,5,25,25);
+        //$this->Image(ASSET_PATH.'images/logo.png',20,5,25,25);
         $this->Image("picQr/".$this->lds[0]['TEACHER_CODE'].".png",170,5,30);
       //
         $this->Cell(0,20,"The University of Sindh",0,1,'C',false);

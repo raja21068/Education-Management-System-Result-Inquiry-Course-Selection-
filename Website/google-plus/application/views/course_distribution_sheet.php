@@ -20,20 +20,29 @@
         foreach( $cd as $c ) {
             $sno++;
             $programTittle =$c['PROGRAM_TITLE'];
+            //$partRemarks =$c['PART_REMARKS'];
+            
             $shift =$c['SHIFT'];
-            if($shift=='M'){
-                $shift="Morning";
-            }else{
-                $shift="EVENING";
-            }
+            // if($shift=='M'){
+            //     $shift="Morning";
+            // }else{
+            //     $shift="EVENING";
+            // }
 
-            $group =$c['GROUP'];
-            $schemeId =$c['SCHEME_ID'];
+            $group =$c['GROUP_DESC'];
+            $progId =$c['PROG_ID'];
             ?>
             <?php echo form_open('/course_distribution_cantroler/departmentWiseScheme',$attributes);	?>
             <tr>
                 <td><?php echo $sno ?></td>
-                <td><input type="hidden" name="scheme_id" value="<?php echo $schemeId ?>"><?php echo $programTittle ?></td>
+                <td><input type="hidden" name="prog_id" value="<?php echo $progId ?>">
+                
+                
+                <input type="hidden" name="group_desc" value="<?php echo $group ?>">
+                
+                <input type="hidden" name="shift" value="<?php echo $shift ?>">
+                
+                <?php echo $programTittle ?></td>
                 <td><?php echo $group ?></td>
                 <td><?php echo $shift ?></td>
                 <td><input type="submit" value="view"></td>
