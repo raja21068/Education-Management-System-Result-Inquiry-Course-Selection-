@@ -101,8 +101,11 @@ class Course_distribution_cantroler extends CI_Controller
 		
 			return;
 		}
-				$c_username = My_Cryptor::myEncryption($user);
-                $c_password = My_Cryptor::myEncryption($pass);
+				//$c_username = My_Cryptor::myEncryption($user);
+                //$c_password = My_Cryptor::myEncryption($pass);
+				$c_username = ($user);
+                $c_password = ($pass);
+
 		        
 		$this->load->model("course_distribution_model");
         $courseDistribution = $this->course_distribution_model->distinictSchemeIdDepartmentWise($c_username,$c_password);
@@ -124,12 +127,14 @@ class Course_distribution_cantroler extends CI_Controller
     public function departmentWiseScheme()
 
     {
-        $schemeId= $this->input->get_post('scheme_id');
+        $progId= $this->input->get_post('prog_id');
+        $groupDesc= $this->input->get_post('group_desc');
+        $shift= $this->input->get_post('shift');
       //  $schemeId='1364';
         $this->load->model("course_distribution_model");
 
-        $courseDistribution = $this->course_distribution_model->getCourseDistribution($schemeId);
-     //   print_r($courseDistribution);
+        $courseDistribution = $this->course_distribution_model->getCourseDistribution($progId,$groupDesc,$shift);
+       //print_r($courseDistribution);
         //unset($user);
         if($courseDistribution==false){
             $data['msg']='Invalid user or pass';
@@ -156,12 +161,13 @@ class Course_distribution_cantroler extends CI_Controller
     }
 	
 	 public function print_form(){
-        $SCHEME_ID = $this->input->post('SCHEME_ID');
-        if($SCHEME_ID==""){
-         return;
-        }
+        $progId= $this->input->get_post('prog_id');
+        $groupDesc= $this->input->get_post('group_desc');
+        $shift= $this->input->get_post('shift');
+        
+        
 			$this->load->model("course_distribution_model");
-			$courseDistribution = $this->course_distribution_model->printCourseDistribution($SCHEME_ID);
+			$courseDistribution = $this->course_distribution_model->printCourseDistribution($progId,$groupDesc,$shift);
 			
 			$PROG_ID =$courseDistribution[0]['PROG_ID'];
 			$PASS =$courseDistribution[0]['PASS'];
@@ -190,14 +196,16 @@ class Course_distribution_cantroler extends CI_Controller
         $NAME1 = $this->input->post('NAME1');
 		$COURSE_NO = $this->input->post('COURSE_NO');
         $SCHEME_ID = $this->input->post('SCHEME_ID');
+    $COURSE_DISTRIBUITION_ID = $this->input->post('COURSE_DISTRIBUITION_ID');
 		$PASS = $this->input->post('PASS');
+		$REMARKS= $this->input->post('REMARKS');
 		$this->load->model("course_distribution_model");
 		 $num = sizeOf($COURSE_NO);
 		
 			
         
 			for ($i = 0; $i < $num; $i++) {
-            $this->course_distribution_model->updateCourseDistribution($COURSE_NO[$i],$NAME1[$i],$SCHEME_ID,$PASS[$i]);
+            $this->course_distribution_model->updateCourseDistribution($COURSE_DISTRIBUITION_ID[$i],$NAME1[$i]);
 		
 		}
 		echo("Save Sucessfully..");
