@@ -1,4 +1,5 @@
 # Education-Management-System
+http://exam.usindh.edu.pk/
 1) Result-Inquiry
 2) Course-Selection
 3) Attandance Management 
